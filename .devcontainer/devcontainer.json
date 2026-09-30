@@ -1,0 +1,13 @@
+{
+  "name": "LaTeX",
+  "image": "texlive/texlive:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": ["James-Yu.latex-workshop"],
+      "settings": {
+        "latex-workshop.latex.autoBuild.run": "onSave",
+        "latex-workshop.latex.recipe.default": "latexmk"
+      }
+    }
+  }
+}
